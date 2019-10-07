@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #f2f2f2;
-  font-family: Georgia; serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -17,8 +17,8 @@ html {
 }
 
 .cards li {
-  display: inline-block:run-in;
-  margin: 0. 5em 1em;
+  display: inline-block;
+  margin: .5em 1em;
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
@@ -34,6 +34,11 @@ html {
   font-size: 1.125rem;
 }
 
+.cards strong {
+  display: block;
+  margin-bottom: 1rem;
+}
+
 .cards dl {
   margin-bottom: 1rem;
 }
@@ -45,7 +50,7 @@ html {
 }
 
 .cards div {
-  displayL inline-block;
+  display: inline-block;
   padding: .5em .75em;
   background-color: #ccc;
   border-radius: 4px;
@@ -53,7 +58,16 @@ html {
   text-decoration: none;
 }
 
-.cards a:hover{
+.cards a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+}
+
+.cards a:hover {
   background-color: #333;
   color: #fff;
 }
