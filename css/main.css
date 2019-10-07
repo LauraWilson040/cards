@@ -18,7 +18,7 @@ html {
 
 .cards li {
   display: inline-block;
-  margin: .5em 1em;
+  margin: 0 .5em 1em;
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
@@ -30,13 +30,13 @@ html {
 .cards img {
   display: block;
   margin-bottom: 1rem;
-
-  font-size: 1.125rem;
 }
 
 .cards strong {
   display: block;
   margin-bottom: 1rem;
+
+  font-size: 1.125rem;
 }
 
 .cards dl {
@@ -45,17 +45,18 @@ html {
 
 .cards dt {
   display: inline-block;
+  width: 6em;
+  font-style: italic;
+}
+
+.cards dd {
+  display: inline-block;
   margin: 0;
   min-width: 9em;
 }
 
 .cards div {
-  display: inline-block;
-  padding: .5em .75em;
-  background-color: #ccc;
-  border-radius: 4px;
-  color: #000;
-  text-decoration: none;
+  text-align: center;
 }
 
 .cards a {
